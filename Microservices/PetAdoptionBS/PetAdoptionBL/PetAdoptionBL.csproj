@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="Refit.HttpClientFactory" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PetAdoptionAbstraction\PetAdoptionAbstraction.csproj" />
+    <ProjectReference Include="..\PetAdoptionDal\PetAdoptionDal.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DAL-Core">
+      <HintPath>..\..\..\..\Code\NuGets\dal-core-ng2025-makarenko\1.0.0\lib\net8.0\DAL-Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
+      <HintPath>..\..\..\..\Code\NuGets\microsoft.extensions.configuration.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>..\..\..\..\Code\NuGets\microsoft.extensions.dependencyinjection.abstractions\8.0.2\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
