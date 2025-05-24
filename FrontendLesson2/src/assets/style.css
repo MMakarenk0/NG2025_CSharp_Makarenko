@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f0f0f0;
+}
+
+.quiz-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+img {
+  border-radius: 8px;
+  width: 400px;
+}
+
+.options {
+  margin: 1rem 0;
+}
+  
+.options button {
+  margin: 0.3rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s, filter 0.2s;
+}
+
+.options button:hover {
+  filter: brightness(0.9);
+}
+.correct {
+  background-color: #8f8;
+}
+
+.incorrect {
+  background-color: #f88;
+}
+
+#refresh {
+  margin-top: 1rem;
+}
+
+.stats {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+#difficulty {
+margin-top: 1rem;
+font-size: 1rem;
+padding: 0.5rem;
+border-radius: 8px;
+}
